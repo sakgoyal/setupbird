@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "ladybird-gcc",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/Build/release/",
+                "${workspaceFolder}/Build/release/Libraries",
+                "${workspaceFolder}/Build/release/Services",
+                "${workspaceFolder}/Libraries",
+                "${workspaceFolder}/Services"
+            ],
+            "defines": [
+                "DEBUG"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "linux-gcc-x86",
+            "compileCommands": "Build/release/compile_commands.json",
+            "compilerArgs": [
+                "-Wall",
+                "-Wextra",
+                "-Werror"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/Build/release/",
+                    "${workspaceFolder}/Build/release/Libraries",
+                    "${workspaceFolder}/Build/release/Services",
+                    "${workspaceFolder}/Libraries",
+                    "${workspaceFolder}/Services"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/Build/release/"
+            }
+        }
+    ],
+    "version": 4
+}

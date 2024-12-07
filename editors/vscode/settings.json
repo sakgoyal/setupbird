@@ -1,0 +1,33 @@
+{
+    // Excluding the generated directories keeps your file view clean and speeds up search.
+    "files.exclude": {
+        "**/.git": true,
+        "Toolchain/Local/**": true,
+        "Toolchain/Tarballs/**": true,
+        "Toolchain/Build/**": true,
+        "Build/**": true
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "Toolchain/Local/**": true,
+        "Toolchain/Tarballs/**": true,
+        "Toolchain/Build/**": true,
+        "Build/**": true
+    },
+    // Force clang-format to respect Ladybird's .clang-format style file. This is not necessary if you're not using the Microsoft C++ extension.
+    "C_Cpp.clang_format_style": "file",
+    // Tab settings
+    "editor.tabSize": 4,
+    "editor.useTabStops": false,
+    // format trailing new lines
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    // git commit message length
+    "git.inputValidationLength": 72,
+    "git.inputValidationSubjectLength": 72,
+    // If clangd was obtained from a package manager, its path can be set here.
+    "clangd.path": "clangd-18",
+    "clangd.arguments": [
+        "--header-insertion=never" // See https://github.com/clangd/clangd/issues/1247
+    ]
+}

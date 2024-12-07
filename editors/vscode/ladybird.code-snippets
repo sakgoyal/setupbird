@@ -1,0 +1,14 @@
+{
+    "License": {
+        "scope": "cpp,c",
+        "prefix": "license",
+        "body": [
+            "/*",
+            " * Copyright (c) $CURRENT_YEAR, ${1:Your Name} <${2:YourName@Email.com}>.",
+            " *",
+            " * SPDX-License-Identifier: BSD-2-Clause",
+            " */"
+        ],
+        "description": "License header"
+    }
+}
